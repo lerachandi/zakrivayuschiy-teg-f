@@ -13,6 +13,7 @@
 .page {
   color: var(--text-color, #000);
   font-family: var(--main-font, "Inter-Variable"), sans-serif;
+  font-weight: var(--main-weight, 410);
   font-size: var(--main-font-size, 18px);
   line-height: 100%;
   background-color: var(--bg-color, #fff);
@@ -24,7 +25,6 @@
   background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-variation-settings: "wght" var(--main-weight, 410);
 }
 
 .main {
@@ -369,7 +369,10 @@
   flex-shrink: 0;
   width: 39px;
   height: 39px;
+  color: black;
+  mix-blend-mode: difference;
 }
+
 
 .floppy-dialog__paragraph {
   font-family: var(--accent-font, "PressStart2P"), fantasy;
