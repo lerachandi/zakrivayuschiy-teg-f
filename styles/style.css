@@ -321,6 +321,8 @@
 .button__icon {
   width: 28px;
   height: 28px;
+  color: var(--button-color, #fff);
+  mix-blend-mode: difference;
 }
 
 .button__text {
@@ -334,8 +336,11 @@
   }
 
   .button-save-memory__icon {
+    color: #fff;
     inline-size: 21px;
     block-size: 21px;
+    
+
   }
 }
 
@@ -369,8 +374,6 @@
   flex-shrink: 0;
   width: 39px;
   height: 39px;
-  color: black;
-  mix-blend-mode: difference;
 }
 
 
